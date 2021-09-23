@@ -380,5 +380,53 @@ content: "";
 }
 
 .team-icons{
-    padding-left: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+.team-icons i {
+    padding-right: 15px;
+}
+
+.price{
+    width: 40%;
+    margin: auto;
+}
+.nav-pills{
+    font-size: 0;
+    display: inline-block;
+    border-radius: 150px;
+    overflow: hidden;
+    border: 1px solid #0c65ed;
+    margin-bottom: 30px;
+}
+
+
+.nav-pills li {
+    float: none;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0;
+    text-transform: capitalize;
+    color: #0c65ed;
+    font-weight: 600;
+}
+
+
+.nav-pills li a {
+    padding: 16px 60px;
+    display: block;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border-radius: 0;
+}
+
+
+li.active a{
+    background-color: #0c65ed;
+    color: white;
 }
