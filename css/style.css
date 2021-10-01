@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 ul, li {
     list-style: none;
@@ -48,7 +49,7 @@ a{
     width: 30%;
 }
 .b-15{
-    bottom: 15px;
+    top: 15px;
 }
 
 .h-600{
@@ -114,7 +115,15 @@ a{
 .text-black{
     color: black;
 }
+nav{
+    text-transform: uppercase;
+}
 
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.55); */
+
+    color: black;
+}
 nav a:hover {
     color:  #0c65ed;
 }
@@ -159,6 +168,11 @@ nav ul li i , .dropdown-content i{
     border-radius: 20px;
     background-color: transparent;
     
+}
+
+.btn-custom:hover{
+    background-color: rgb(11, 50, 63) !important;
+    border: 1px solid rgb(11, 50, 63) !important;
 }
 
 .main-title{
@@ -242,10 +256,11 @@ content: "";
 
 .fet{
     top: 12px;
-    bottom: 12px;
-    left: 10px;
+    /* bottom: 12px;
+    left: 10px; */
     z-index: 10;
     min-width: 425px;
+    max-width: 470px;
 }
 
 
@@ -254,7 +269,7 @@ content: "";
 }
 
 .big-row {
-    margin: 100px 0px;
+    margin-top: 10%;
 }
 
 .custom-icon-2{
@@ -327,8 +342,8 @@ content: "";
 
 
 .img-card{
-    width: 360px;
-    height: 380px;
+    /* width: 360px;
+    height: 380px; */
     box-sizing: border-box;
     position: relative;
 }
@@ -355,7 +370,7 @@ content: "";
     color: white;
     padding-top: 10px;
     padding-left: 10px;
-    top :270px;
+    bottom: 15%;
     
 
 
@@ -403,7 +418,7 @@ content: "";
 
 
 .team-card-overlay{
-    top: 78%;
+    top: 80%;
     transition: .4s;
     
     
@@ -524,12 +539,14 @@ li.active a{
 
 
 .btn-card-price{
-    width: 200px!important;
-    padding: 17px;
-    border-radius: 30px;
+    width: 80% !important;
+    padding: 12px;
+    border-radius: 24px;
     display: block;
     margin: auto;
 }
+
+
 
 .price-item.active {
     -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0 / 25%);
@@ -769,4 +786,9 @@ border: 1px solid #0c65ed;}
 
 .t-15{
     top: 15px;
+}
+
+
+#topBtn{
+    display: none;
 }
